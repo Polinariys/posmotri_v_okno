@@ -56,9 +56,10 @@ video {
 }
 
 .result__video-container {
-  position: relative;
-  inline-size: 711px;
-  margin: 0 0 11px;
+    position: relative;
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
 }
 
 .result__video {
