@@ -157,6 +157,7 @@ video {
 
 .button:active {
   background-color: #545050;
+  text-decoration: none;
 }
 
 .button:hover {
