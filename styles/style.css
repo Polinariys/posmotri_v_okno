@@ -298,7 +298,7 @@ video {
   display: none;
   width: 15px;
   height: 15px;
-  margin: auto;
+ margin: 1px 0 0 1px; 
   background-color: #fff;
 }
 
