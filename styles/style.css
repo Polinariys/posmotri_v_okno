@@ -100,7 +100,7 @@ video {
 
 .search-form__fieldset-title {
   font-size: 18px;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -200,7 +200,9 @@ video {
   text-decoration: none;
 }
 
-
+.content__card-link:hover {
+  text-decoration: underline;
+}
 
 .content__card-link:focus {
   outline: none;
@@ -267,7 +269,7 @@ video {
    text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 771px;
+  max-width: 200px;
 }
 
 .content__video-card-description {
@@ -298,7 +300,7 @@ video {
   display: none;
   width: 15px;
   height: 15px;
- margin: 1px 0 0 1px; 
+ margin: auto; 
   background-color: #fff;
 }
 
