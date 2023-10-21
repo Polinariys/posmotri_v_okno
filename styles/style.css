@@ -115,6 +115,10 @@ video {
   text-decoration: underline 1px #fff;
   text-underline-offset: 5px;
 }
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
 
 .search-form__checkbox-list {
   display: flex;
@@ -304,10 +308,6 @@ video {
   background-color: #fff;
 }
 
-.search-form__label:has(:focus-visible) {
-  outline: 1px solid #fff;
-  outline-offset: 1px;
-}
 
 
 
